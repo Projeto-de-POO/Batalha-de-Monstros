@@ -1,0 +1,33 @@
+public class Golpe {
+    private int id;
+    private String nome;
+    private String elemento;
+    private String descricao;
+    private double dano;
+    private int limite;
+
+    public Golpe(int umId,String umNome,String umElemento, String umaDescricao,double umDano,int umLimite){
+        this.id=umId;
+        this.nome=umNome;
+        this.elemento=umElemento;
+        this.descricao=umaDescricao;
+        this.dano=umDano;
+        this.limite = umLimite;
+    }
+    public String getNome(){
+        return this.nome;
+    } 
+    public String getElemento(){
+        return this.elemento;
+    }
+    public String getDescricao(){
+        return this.descricao;
+    }
+    public int getLimite(){
+        return this.limite;
+    }
+    public double getDano(){
+        return this.dano;
+    }
+   
+}
