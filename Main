@@ -33,7 +33,7 @@ public class Main {
         Golpe mordidaEletrica = new Golpe(9, "MORDIDA ELETRICA", "ELETRICO",
                 "O MONSTRO INIMIGO É MORDIDO E RECEBE UMA DESCARGA ELETRICA", 3, 99999);
         Golpe veneno = new Golpe(10, "VENENO", "INSETO", "UM JATO DE VENENO ATINGE O INIMIGO.", 4, 99999);
-        Golpe pedras = new Golpe(11, "PEDRAS", "TERRA", "UMA PEDRA É ARREMÇADA NO INIMIGO", 5, 99999);
+        Golpe pedras = new Golpe(11, "PEDRAS", "TERRA", "UMA PEDRA É ARREMEÇADA NO INIMIGO", 5, 99999);
 
         // golpes limitados(especiais)
         Golpe brasaChamuscante = new Golpe(0, "BRASA CHAMUSCANTE", "FOGO",
